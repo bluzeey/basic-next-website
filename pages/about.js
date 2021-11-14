@@ -1,19 +1,20 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
 import Head from 'next/head'
-const about = () => {
-    return (
-        <>
-        <Head>
-        <title>Member List About</title>
-        <meta name="keywords" content="members"/>
-        </Head>
-        <div>
-            <h1>About</h1>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-        </div>
-        </>
-    )
-}
 
-export default about
+const About = () => {
+  return (
+    <>
+      <Head>
+        <title>Member List | About</title>
+        <meta name="keywords" content="members"/>
+      </Head>
+      <div>
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
+      </div>
+    </>
+  );
+}
+ 
+export default About;
