@@ -5,9 +5,8 @@ import {useRouter} from 'next/router'
 
 
 const notFound = () => {
-    const router=useRouter()
-
     useEffect(()=>{
+    const router=useRouter()
         setTimeout(()=>{
             //router.go(1)
             router.push('/');
